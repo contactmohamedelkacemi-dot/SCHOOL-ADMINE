@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+
+# Node / React / Next
+node_modules/
+.next/
+out/
+
+# PHP / Laravel
+vendor/
+storage/logs/*
+bootstrap/cache/*
+
+# System / divers
+.vscode/
+.idea/
+*.log
+*.zip
+*.rar
+.DS_Store
+Thumbs.db
